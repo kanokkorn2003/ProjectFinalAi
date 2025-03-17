@@ -1,4 +1,6 @@
-import auImage from './au.png';
+
+import benefitImage from './benefit.png';
+
 
 const Home = () => {
   return (
@@ -9,10 +11,10 @@ const Home = () => {
         <h1>เกี่ยวกับเรา</h1>
       </header>
 
-      {/* auImage Section */}
+      {/* benefitImage Section */}
       <section className="about-image">
         <img
-          src={auImage} // เปลี่ยนเป็นลิงก์ภาพที่ต้องการ
+          src={benefitImage} // เปลี่ยนเป็นลิงก์ภาพที่ต้องการ
           alt="สุขภาพจิต"
           className="about-image-img"
         />
