@@ -4,6 +4,7 @@ import Navbar from './nav/nav';  // นำเข้า Navbar (Sidebar)
 import Home from './home/home';
 import EmotionAnalyst from './emotionanalyst/emotionanalyst';  // แก้ชื่อให้ตรง
 import Aboutus from './aboutus/aboutus';
+import Contact from './contact/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/emotionanalyst" element={<EmotionAnalyst />} />
           <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>
