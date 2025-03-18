@@ -1,0 +1,19 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column; /* จัดเรียงเนื้อหาเป็นคอลัมน์ */
+    align-items: center; /* จัดกลางเนื้อหา */
+    /* เพิ่มช่องว่างระหว่างรูป */
+  }
+  
+  .about-image {
+    width: 100%; /* ทำให้รูปภาพกว้างเต็มพื้นที่ */
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งภาพให้อยู่กลาง */
+  }
+  
+  .about-image-img {
+    width: 100%; /* ปรับขนาดของภาพให้พอดีกับพื้นที่ */
+    max-width: 1800px; /* กำหนดขนาดสูงสุดของภาพ */
+    object-fit: cover; /* ควบคุมให้ภาพไม่เสียสัดส่วน */
+  }
+  
