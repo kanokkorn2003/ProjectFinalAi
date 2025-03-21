@@ -5,6 +5,7 @@ import Home from './home/home';
 import EmotionAnalyst from './emotionanalyst/emotionanalyst';  // แก้ชื่อให้ตรง
 import Aboutus from './aboutus/aboutus';
 import Contact from './contact/contact';
+import FAQ from './faq/faq';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/emotionanalyst" element={<EmotionAnalyst />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -1,12 +1,9 @@
-import React from 'react';
-import './emotionanalyst'; // ตรวจสอบให้มั่นใจว่าไฟล์นี้มีอยู่ในโฟลเดอร์ emotionanalyst
+import React from 'react'
 
-const EmotionAnalyst = () => {
+function emotionanalyst() {
   return (
-    <div>
-      <h1>Emotion Analysis</h1>
-    </div>
-  );
-};
+    <div>emotionanalyst</div>
+  )
+}
 
-export default EmotionAnalyst;
+export default emotionanalyst

@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(135deg, #3dbed1, #d581ab);
+    }
+.faq-container {
+    max-width: 600px;
+    margin: 60px auto 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* ทำให้โปร่งใส */
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    backdrop-filter: blur(15px); /* ทำให้ขุ่น */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* ขอบแบบโปร่งใส */
+}
+
+  
+  /* 🔥 หัวข้อ */
+  .faq-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #021829;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  }
+  
+  /* 🚀 กล่องคำถาม */
+  .faq-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+  }
+  
+  .faq-item:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* ❓ คำถาม */
+  .faq-question {
+    color: #021829; /* เปลี่ยนเป็นสีเขียวฟ้า */
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;  /* ให้คำถามอยู่ซ้าย ไอคอนอยู่ขวา */
+    align-items: center;
+    width: 100%; /* ทำให้ยืดเต็ม */
+}
+
+  
+  /* ➕ / ➖ ไอคอน */
+  .faq-icon {
+    margin-left: auto;  /* ดันไปอยู่ริมขวา */
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+  /* 🟣 คำตอบ */
+  .faq-answer {
+    color: #021829;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .faq-item.open .faq-answer {
+    max-height: 150px;
+    opacity: 1;
+  }
+  
