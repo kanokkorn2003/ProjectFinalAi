@@ -1,7 +1,6 @@
 body {
   background: linear-gradient(135deg, #3dbed1, #d581ab);
-}
-
+  }
 .faq-container {
   max-width: 600px;
   margin: 60px auto 20px;
@@ -14,6 +13,7 @@ body {
   backdrop-filter: blur(15px); /* ทำให้ขุ่น */
   border: 1px solid rgba(255, 255, 255, 0.3); /* ขอบแบบโปร่งใส */
 }
+
 
 /* 🔥 หัวข้อ */
 .faq-title {
@@ -52,6 +52,7 @@ body {
   width: 100%; /* ทำให้ยืดเต็ม */
 }
 
+
 /* ➕ / ➖ ไอคอน */
 .faq-icon {
   margin-left: auto;  /* ดันไปอยู่ริมขวา */
@@ -70,76 +71,6 @@ body {
 
 .faq-item.open .faq-answer {
   max-height: 150px;
-  opacity: 1;
+  opacity: 5;
 }
 
-
-
-/* Testimonials Section */
-.testimonials-section {
-  background-color: #baefff;
-  padding: 10px; /* ลด padding ด้านบนและด้านล่าง */
-  height: px; /* ความสูงของพื้นที่ */
-  display: flex;
-  align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
-  margin-top: auto; /* ทำให้ชิดขอบล่างสุด */
-}
-/* Container สำหรับเนื้อหา */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.row {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* โลโก้ */
-.logo-container {
-  margin-right: 30px;
-  display: flex; /* เพิ่ม display flex */
-  align-items: center; /* จัดโลโก้ให้อยู่ตรงกลางแนวตั้ง */
-}
-
-/* Contact Section */
-.contact-info {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
-}
-
-.contact-title {
-  font-size: 1em;
-  margin-bottom: 5px;
-}
-
-.contact-address, .contact-phone {
-  font-size: 0.8em;
-  margin-bottom: 3px;
-}
-
-/* Links Section */
-.links {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
-}
-
-.link-item {
-  margin-bottom: 3px;
-}
-
-.link-text {
-  text-decoration: none;
-  color: #234faa;
-  font-size: 0.8em;
-}

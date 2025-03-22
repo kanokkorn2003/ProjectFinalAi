@@ -1,0 +1,79 @@
+/* Container หลัก */
+/* Container หลัก */
+.emotion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ffe4f5, #ffe4f5); /* เปลี่ยนสีที่นี่ */
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+ /* หัวข้อ */
+h1 {
+    margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่างของหัวข้อ */
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #00000050;
+    margin-top: 0; /* กำหนดไม่ให้ขยับขึ้น */
+    color: #234faa; /* เปลี่ยนสีที่นี่ (สีนี้คือลูกพีช) */
+}
+
+
+/* กล้องใหญ่ขึ้น และขยับขึ้น */
+.webcam {
+    width: 300%;               /* ลดขนาดกล้องลง */
+    max-width: 950px;         /* ลดขนาดสูงสุดของกล้อง */
+    border-radius: 14px;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+
+  /* ปุ่มวิเคราะห์ */
+ /* ปุ่มวิเคราะห์ */
+/* ปุ่มถ่ายรูปใหม่ */
+.capture-btn {
+    padding: 20px 50px; /* เพิ่มพื้นที่รอบๆ ปุ่ม */
+    font-size: 28px; /* ขนาดฟอนต์ที่เหมาะสม */
+    background-color: #ffffff; /* สีฟ้าเขียว */
+    color: #fff; /* สีฟอนต์ขาว */
+    border: none;
+    border-radius: 50px; /* เปลี่ยนเป็นทรงกลม */
+    cursor: pointer;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2); /* เงาที่นุ่มนวลขึ้น */
+    transition: all 0.3s ease; /* ทำให้การเคลื่อนไหวราบรื่น */
+}
+
+/* การเปลี่ยนแปลงเมื่อเอาเมาส์ไปวางบนปุ่ม */
+.capture-btn:hover {
+    background-color: #ffffff; /* สีเข้มขึ้นเมื่อวางเมาส์ */
+    transform: scale(1.05); /* ทำให้ปุ่มขยายขึ้นเล็กน้อย */
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3); /* เงาที่ชัดเจนขึ้น */
+}
+
+/* เพิ่มลูกเล่นพิเศษเมื่อปุ่มคลิก */
+.capture-btn:active {
+    transform: scale(0.98); /* ลดขนาดเล็กน้อยเมื่อคลิก */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* เงาที่อ่อนลงเมื่อคลิก */
+}
+
+
+  
+  /* กล่องผลลัพธ์ */
+  .result-box {
+    margin-top: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 16px;
+    color: #021829;
+    font-size: 22px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  

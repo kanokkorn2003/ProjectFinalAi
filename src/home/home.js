@@ -5,6 +5,7 @@ import musicImage from './music.png';
 import { Link } from 'react-router-dom';
 import podcastImage from './podcast.png';
 
+
 const Home = () => {
   return (
     <div className="about-us-container">
@@ -63,7 +64,7 @@ const Home = () => {
           <button
             style={{
               position: 'absolute',
-              bottom: '85px',
+              bottom: '60px',
               left: '17%',
               transform: 'translateX(-50%)',
               padding: '12px 20px',
@@ -108,7 +109,7 @@ const Home = () => {
           <button
             style={{
               position: 'absolute',
-              bottom: '85px',
+              bottom: '60px',
               left: '50.5%',
               transform: 'translateX(-50%)',
               padding: '12px 20px',
@@ -153,7 +154,7 @@ const Home = () => {
           <button
             style={{
               position: 'absolute',
-              bottom: '85px',
+              bottom: '60px',
               left: '83.5%',
               transform: 'translateX(-50%)',
               padding: '12px 20px',
@@ -243,93 +244,96 @@ const Home = () => {
           </button>
         </a>
 
+        {/* ปุ่ม 2 */}
         <a href="https://www.youtube.com/watch?v=3J2yudq8tgw&t=18s" target="_blank" rel="noopener noreferrer">
-    <button
-      style={{
-        position: 'absolute',
-        bottom: '85px',
-        left: '50.5%',
-        transform: 'translateX(-50%)',
-        padding: '12px 20px',
-        background: 'linear-gradient(45deg, #4facfe, #00f2fe)',
-        color: 'white',
-        fontSize: '17px',
-        fontWeight: 'bold',
-        border: 'none',
-        borderRadius: '25px',
-        cursor: 'pointer',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-        whiteSpace: 'normal',
-        textAlign: 'center',
-        wordBreak: 'break-word',
-        width: '350px',
-        fontFamily: 'Arial, Open Sauce',
-        height: '90px',
-        lineHeight: '1.5',
-      }}
-      onMouseOver={(e) => {
-        e.target.style.border = '2px solid rgb(254, 254, 254)';
-        e.target.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
-        e.target.style.transform = 'translateX(-50%) translateY(-15px)';
-      }}
-      onMouseOut={(e) => {
-        e.target.style.border = 'none';
-        e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
-        e.target.style.transform = 'translateX(-50%) translateY(0)';
-      }}
-      onClick={(e) => {
-        e.target.style.transform = 'translateX(-50%) translateY(3px)';
-        e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-      }}
-    >
-      ให้กำลังใจตัวเองยังไง ในวันที่ไม่โอเค <br />  "R U OK MEDLEY"
-    </button>
-  </a>
+          <button
+            style={{
+              position: 'absolute',
+              bottom: '85px',
+              left: '50.5%',
+              transform: 'translateX(-50%)',
+              padding: '12px 20px',
+              background: 'linear-gradient(45deg, #4facfe, #00f2fe)',
+              color: 'white',
+              fontSize: '17px',
+              fontWeight: 'bold',
+              border: 'none',
+              borderRadius: '25px',
+              cursor: 'pointer',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+              whiteSpace: 'normal',
+              textAlign: 'center',
+              wordBreak: 'break-word',
+              width: '350px',
+              fontFamily: 'Arial, Open Sauce',
+              height: '90px',
+              lineHeight: '1.5',
+              transition: 'all 0.3s ease',
+            }}
+            onMouseOver={(e) => {
+              e.target.style.border = '2px solid rgb(254, 254, 254)';
+              e.target.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
+              e.target.style.transform = 'translateX(-50%) translateY(-15px)';
+            }}
+            onMouseOut={(e) => {
+              e.target.style.border = 'none';
+              e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+              e.target.style.transform = 'translateX(-50%) translateY(0)';
+            }}
+            onClick={(e) => {
+              e.target.style.transform = 'translateX(-50%) translateY(3px)';
+              e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+            }}
+          >
+            เทคนิคการจัดการอารมณ์ <br /> "R U OK MEDLEY"
+          </button>
+        </a>
 
-  <a href="https://www.youtube.com/watch?v=U7d1-_SWJv4&t=103s" target="_blank" rel="noopener noreferrer">
-    <button
-      style={{
-        position: 'absolute',
-        bottom: '85px',
-        left: '83.5%',
-        transform: 'translateX(-50%)',
-        padding: '12px 20px',
-        background: 'linear-gradient(45deg, #ffb347, rgb(249, 220, 136))',
-        color: 'white',
-        fontSize: '16px',
-        fontWeight: 'bold',
-        border: 'none',
-        borderRadius: '25px',
-        cursor: 'pointer',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-        whiteSpace: 'normal',
-        textAlign: 'center',
-        wordBreak: 'break-word',
-        width: '350px',
-        fontFamily: 'Open Sauce Sans, sans-serif',
-        height: '90px',
-        lineHeight: '1.5',
-      }}
-      onMouseOver={(e) => {
-        e.target.style.border = '2px solid rgb(254, 254, 254)';
-        e.target.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
-        e.target.style.transform = 'translateX(-50%) translateY(-15px)';
-      }}
-      onMouseOut={(e) => {
-        e.target.style.border = 'none';
-        e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
-        e.target.style.transform = 'translateX(-50%) translateY(0)';
-      }}
-      onClick={(e) => {
-        e.target.style.transform = 'translateX(-50%) translateY(3px)';
-        e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-      }}
-    >
-      การจัดการความเครียดด้วยตนเอง <br /> "Mahidol Channe"
-    </button>
-  </a>
-</section>
-
+        {/* ปุ่ม 3 */}
+        <a href="https://youtu.be/U7d1-_SWJv4?si=clFOrwH4HAqjt_2i" target="_blank" rel="noopener noreferrer">
+  <button
+    style={{
+      position: 'absolute',
+      bottom: '85px',
+      left: '83.5%',
+      transform: 'translateX(-50%)',
+      padding: '12px 20px',
+      background: 'linear-gradient(45deg, #ffb347, rgb(249, 220, 136))',
+      color: 'white',
+      fontSize: '16px',
+      fontWeight: 'bold',
+      border: 'none',
+      borderRadius: '25px',
+      cursor: 'pointer',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+      whiteSpace: 'normal',
+      textAlign: 'center',
+      wordBreak: 'break-word',
+      width: '350px',
+      fontFamily: 'Mitr, sans-serif', // กำหนดฟอนต์ที่ต้องการที่นี่
+      height: '90px',
+      lineHeight: '1.5',
+      transition: 'all 0.3s ease',
+    }}
+    onMouseOver={(e) => {
+      e.target.style.border = '2px solid rgb(254, 254, 254)';
+      e.target.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
+      e.target.style.transform = 'translateX(-50%) translateY(-15px)';
+    }}
+    onMouseOut={(e) => {
+      e.target.style.border = 'none';
+      e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+      e.target.style.transform = 'translateX(-50%) translateY(0)';
+    }}
+    onClick={(e) => {
+      e.target.style.transform = 'translateX(-50%) translateY(3px)';
+      e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+    }}
+  >
+    การดูแลสุขภาพจิต <br /> "Mahidol Channel"
+  </button>
+</a>
+      </section>
     </div>
   );
 };
