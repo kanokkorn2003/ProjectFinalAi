@@ -16,3 +16,38 @@
   max-width: 1800px; /* กำหนดขนาดสูงสุดของภาพ */
   object-fit: cover; /* ควบคุมให้ภาพไม่เสียสัดส่วน */
 }
+
+
+/* ตั้งเเต่ตรงนี้ css tab */
+.footer {
+  background-color: #baefff;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-logo {
+  margin-left: auto; /* ขยับโลโก้ไปทางขวาสุด */
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-contact,
+.footer-links {
+  text-align: left; /* จัด contact และ sitemap ชิดซ้าย */
+}
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-links h3 {
+  text-align: left; /* จัดหัวข้อ sitemap ชิดซ้าย */
+}
+
+.link-item {
+  text-align: left; /* จัด link ชิดซ้าย */
+}
